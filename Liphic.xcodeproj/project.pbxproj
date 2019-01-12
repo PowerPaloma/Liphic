@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA4587021EAAE8F00C2FCCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4586F21EAAE8F00C2FCCB /* AppDelegate.swift */; };
+		2FA4587221EAAE8F00C2FCCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4587121EAAE8F00C2FCCB /* ViewController.swift */; };
+		2FA4587521EAAE8F00C2FCCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4587321EAAE8F00C2FCCB /* Main.storyboard */; };
+		2FA4587821EAAE8F00C2FCCB /* Liphic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4587621EAAE8F00C2FCCB /* Liphic.xcdatamodeld */; };
+		2FA4587A21EAAE9000C2FCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4587921EAAE9000C2FCCB /* Assets.xcassets */; };
+		2FA4587D21EAAE9000C2FCCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA4587B21EAAE9000C2FCCB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FA4586C21EAAE8F00C2FCCB /* Liphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA4586F21EAAE8F00C2FCCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FA4587121EAAE8F00C2FCCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FA4587421EAAE8F00C2FCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FA4587721EAAE8F00C2FCCB /* Liphic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Liphic.xcdatamodel; sourceTree = "<group>"; };
+		2FA4587921EAAE9000C2FCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA4587C21EAAE9000C2FCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FA4587E21EAAE9000C2FCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA4586921EAAE8F00C2FCCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA4586321EAAE8F00C2FCCB = {
+			isa = PBXGroup;
+			children = (
+				2FA4586E21EAAE8F00C2FCCB /* Liphic */,
+				2FA4586D21EAAE8F00C2FCCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA4586D21EAAE8F00C2FCCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA4586C21EAAE8F00C2FCCB /* Liphic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA4586E21EAAE8F00C2FCCB /* Liphic */ = {
+			isa = PBXGroup;
+			children = (
+				2FA4586F21EAAE8F00C2FCCB /* AppDelegate.swift */,
+				2FA4587121EAAE8F00C2FCCB /* ViewController.swift */,
+				2FA4587321EAAE8F00C2FCCB /* Main.storyboard */,
+				2FA4587921EAAE9000C2FCCB /* Assets.xcassets */,
+				2FA4587B21EAAE9000C2FCCB /* LaunchScreen.storyboard */,
+				2FA4587E21EAAE9000C2FCCB /* Info.plist */,
+				2FA4587621EAAE8F00C2FCCB /* Liphic.xcdatamodeld */,
+			);
+			path = Liphic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA4586B21EAAE8F00C2FCCB /* Liphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA4588121EAAE9000C2FCCB /* Build configuration list for PBXNativeTarget "Liphic" */;
+			buildPhases = (
+				2FA4586821EAAE8F00C2FCCB /* Sources */,
+				2FA4586921EAAE8F00C2FCCB /* Frameworks */,
+				2FA4586A21EAAE8F00C2FCCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liphic;
+			productName = Liphic;
+			productReference = 2FA4586C21EAAE8F00C2FCCB /* Liphic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA4586421EAAE8F00C2FCCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paloma Bispo";
+				TargetAttributes = {
+					2FA4586B21EAAE8F00C2FCCB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FA4586721EAAE8F00C2FCCB /* Build configuration list for PBXProject "Liphic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA4586321EAAE8F00C2FCCB;
+			productRefGroup = 2FA4586D21EAAE8F00C2FCCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA4586B21EAAE8F00C2FCCB /* Liphic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA4586A21EAAE8F00C2FCCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA4587D21EAAE9000C2FCCB /* LaunchScreen.storyboard in Resources */,
+				2FA4587A21EAAE9000C2FCCB /* Assets.xcassets in Resources */,
+				2FA4587521EAAE8F00C2FCCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA4586821EAAE8F00C2FCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA4587221EAAE8F00C2FCCB /* ViewController.swift in Sources */,
+				2FA4587021EAAE8F00C2FCCB /* AppDelegate.swift in Sources */,
+				2FA4587821EAAE8F00C2FCCB /* Liphic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FA4587321EAAE8F00C2FCCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA4587421EAAE8F00C2FCCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FA4587B21EAAE9000C2FCCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FA4587C21EAAE9000C2FCCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FA4587F21EAAE9000C2FCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA4588021EAAE9000C2FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FA4588221EAAE9000C2FCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ922JMCL6;
+				INFOPLIST_FILE = Liphic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.Liphic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FA4588321EAAE9000C2FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ922JMCL6;
+				INFOPLIST_FILE = Liphic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paloma-Bispo.Liphic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA4586721EAAE8F00C2FCCB /* Build configuration list for PBXProject "Liphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA4587F21EAAE9000C2FCCB /* Debug */,
+				2FA4588021EAAE9000C2FCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA4588121EAAE9000C2FCCB /* Build configuration list for PBXNativeTarget "Liphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA4588221EAAE9000C2FCCB /* Debug */,
+				2FA4588321EAAE9000C2FCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FA4587621EAAE8F00C2FCCB /* Liphic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FA4587721EAAE8F00C2FCCB /* Liphic.xcdatamodel */,
+			);
+			currentVersion = 2FA4587721EAAE8F00C2FCCB /* Liphic.xcdatamodel */;
+			path = Liphic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FA4586421EAAE8F00C2FCCB /* Project object */;
+}
